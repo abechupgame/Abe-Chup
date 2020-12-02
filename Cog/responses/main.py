@@ -23,7 +23,7 @@ class Angry(commands.Cog, name="Response Commands"):
             await message.channel.send("https://cdn.discordapp.com/attachments/746452338948046866/767071527496843264/rsz_pog2.png")
             return
 
-        if "cum cookie" in message.content.lower():
+        if "Asasinomanik" in message.content.lower():
             file = discord.File("Cog/responses/cumcookie.mp4", filename="cum-cookie.mp4")
             await message.channel.send(file=file)
             return
